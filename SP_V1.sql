@@ -5,8 +5,8 @@ BEGIN
     DECLARE @NewName VARCHAR(50);
     DECLARE @NewJobTitle VARCHAR(50);
 
-    SET @NewSerialNumber = 4;
-    SET @NewName = 'Parth Patel';
+    SET @NewSerialNumber = 6;
+    SET @NewName = 'Piyush Patel';
     SET @NewJobTitle = 'Software Engineer';
 
     IF NOT EXISTS (
